@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-form{
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.input-and-btn{
+  display: flex;
+}
+
+.todo-box{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-box .content{
+  display: flex;
+}
+
+.todo-box .content p{
+  margin-top: -6px;
+  margin-left: 6px;
+}
+
+.todo-box span{
+  margin: 0 5px;
+}
+
+.delete-all{
+  width: 400px;
+}
+
+.actions-box{
+  cursor: pointer;
+}
+
+.back-btn{
+  margin-top: 5px;
+  width: 100%;
+}
+.element {
+  print-color-adjust: exact; 
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, #4158d0, #e560dc, #ffb374, #ef5f5f, #d848b6);
+  background-size: 400% 400%;
+  animation: bg 12s ease infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
